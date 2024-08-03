@@ -15,7 +15,7 @@ $S=21$
 
 $x_i\in\{1,2\}$
 
-$n:\text{\# de jugadores}$
+$n:\text{número de jugadores}$
 
 La partida esperada sería $p=S\bmod(n\bar{x})$ pero se sabe que $E(x_i)=\bar{x}=1.5$
 
@@ -27,4 +27,4 @@ gcc .\source\veintiuno.c -o .\bin\veintiuno.exe -Wall
 ```
 
 ## Hoja de cálculo
-También se encuentra en el repositorio una [hoja de cálculo](veintiuno.ods) que cuenta con algunos resultados de las simulaciones así como una aproximación matemática del juego. Un hallazgo sumamente interesante es que la única partida justa, en la que todos los jugadores tienen la misma probabilidad de perder, solo ocurre en una partida de dos jugadores.
+También se encuentra en el repositorio una [hoja de cálculo](veintiuno.ods) que cuenta con algunos resultados de las simulaciones así como una aproximación matemática del juego. Un hallazgo sumamente interesante es que la única partida justa, en la que todos los jugadores tienen la misma probabilidad de perder, es la de dos jugadores.
