@@ -7,7 +7,7 @@ Para jugar se necesita formar un grupo, idealmente e 4 a 6 personas, y que se co
 
 En términos matemáticos se puede decir que el dedo perdedor es aquel en la posición *p*:
 
-$p=S\bmod(\displaystyle\sum_{i=1} ^{n} x_i)$
+$p=S\bmod(\sum_{i=1} ^{n} x_i)$
 
 Donde:
 
